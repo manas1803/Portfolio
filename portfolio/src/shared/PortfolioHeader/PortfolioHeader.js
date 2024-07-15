@@ -3,10 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const PortfolioHeader = () => {
   return (
-    <>
-      <header>
+      <header className="flex flex-row border-2 border-rose-700 px-10 py-64 bg-teal-900 text-teal-50">
         <nav>
           <ul>
+          <li>
+              <img src="" alt="Profile Photo" />
+            </li>
             <li>
               <NavLink to="/about">About</NavLink>
             </li>
@@ -28,7 +30,6 @@ const PortfolioHeader = () => {
           </ul>
         </nav>
       </header>
-    </>
   );
 };
 

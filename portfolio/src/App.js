@@ -3,10 +3,10 @@ import { PortfolioRoutes } from "./shared/Routes/PortfolioRoutes";
 
 function App() {
   return (
-    <>
-    <PortfolioHeader />
-    <PortfolioRoutes />
-    </>
+    <div className="container flex box-border min-h-screen">
+      <PortfolioHeader />
+      <PortfolioRoutes />
+    </div>
   );
 }
 
