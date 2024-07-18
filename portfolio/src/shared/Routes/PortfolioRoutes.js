@@ -11,7 +11,7 @@ import { NotFound } from "../../pages/ErrorPage/NotFound";
 export const PortfolioRoutes = () => {
   return (
     <Routes>
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<About />} />
       <Route path="/education" element={<Education />} />
       <Route path="/interests" element={<Interests />} />
       <Route path="/projects" element={<Projects />} />
